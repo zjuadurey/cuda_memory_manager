@@ -19,7 +19,7 @@ before #include <cuda_runtime.h> and thrust includes (if exist)
 
 # collaboration
 
-This code is the product of collaboration with @jifaley. Best gratitude!!!
+This code is the product of collaboration with https://github.com/jifaley. Best gratitude!!!
 
 # reference
 
