@@ -17,6 +17,10 @@ before #include <cuda_runtime.h> and thrust includes (if exist)
 
 3. That's all!
 
+# collaboration
+
+This code is the product of collaboration with @jifaley
+
 # reference
 
 This code is a reproduction of the following article:
