@@ -17,12 +17,14 @@ before #include <cuda_runtime.h> and thrust includes (if exist)
 
 3. That's all!
 
-# collaboration
+# Contributors
 
-This code is the product of collaboration with https://github.com/jifaley. Best gratitude!!!
+- [@jifaley](https://github.com/jifaley) - Patient instruction and essential guidance. Best gratitude!!!
 
 # reference
 
 This code is a reproduction of the following article:
 
 https://www.canaknesil.com/docs/MAM_A_Memory_Allocation_Manager_for_GPUs.pdf
+
+Thx!!!
