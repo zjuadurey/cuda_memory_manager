@@ -15,7 +15,17 @@ use std::set to manage the memory fragments.
 `
 before #include <cuda_runtime.h> and thrust includes (if exist)
 
-3. That's all!
+3. At the start of the program, add a line
+`
+memoryManager.createBlock();
+`
+
+4. At the end of the program, add a line
+`
+ memoryManager.freeBlock();
+`
+
+5. That's all!
 
 # Contributors
 
