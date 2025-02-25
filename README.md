@@ -24,7 +24,8 @@ graph TD
 - 🌳 Dual Red-Black Trees - O(log n) search/insert/delete operations  
 - 🔄 Auto-merging - Coalesces adjacent free blocks  
 - ⚡ 256-byte Alignment - Optimized for GPU memory access  
-- 📊 Debug Tools - printMemoryPool() for real-time monitoring  
+- 📊 Debug Tools - printMemoryPool() for real-time monitoring
+- 🔍 User-friendly - Use macro to override CUDA API  to minimize the change of your project
 ## Quick Start    
 ### Integration  
 ```cpp
