@@ -92,8 +92,8 @@ if (err != cudaSuccess) {
 - Periodically check fragmentation status  
 
 ## Contributors  
-- [@jifaley] - Patient instruction and essential guidance. Best gratitude!!!
-- [@zjuadurey] - Project maintainer  
+- [@jifaley](https://github.com/jifaley) - Patient instruction and essential guidance. Best gratitude!!!
+- [@zjuadurey](https://github.com/zjuadurey) - Project maintainer  
 
 ## Reference Implementation  
 Based on concepts from:  
