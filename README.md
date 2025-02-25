@@ -1,7 +1,7 @@
 # cuda_memory_manager
 light, user-friendly memory manager for the CUDA programs.
 
-use std::set to manage the memory fragments.
+use std::set(a red-black tree) to manage the memory fragments.
 
 # usage
 
