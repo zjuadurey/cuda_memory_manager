@@ -100,4 +100,4 @@ Based on concepts from:
 https://www.canaknesil.com/docs/MAM_A_Memory_Allocation_Manager_for_GPUs.pdf  
 Can Aknesil and Didem Unat. "MAM: A Memory Allocation Manager for GPUs". 5. Ulusal Yüksek Başarımlı Hesaplama Konferansı, Istanbul, Turkey. September, 2017.  
 
-Note: Actual performance may vary depending on workload characteristics. Recommended for applications with repetitive allocation patterns.
+__Note__: Actual performance may vary depending on workload characteristics. Recommended for applications with repetitive allocation patterns.
