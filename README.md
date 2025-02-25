@@ -87,7 +87,29 @@ if (err != cudaSuccess) {
     memoryManager.printMemoryPool();
     // Handle error...
 }
-```
+```  
+
+ 
+### Performance Benchmark  
+
+**Real-world Case Study with [InstantTrace](https://github.com/jifaley/InstantTrace):**
+
+```bash
+# Execution Time Comparison
++---------------------+-------------------+------------------+---------------+
+|        Metric       | Native CUDA (ms)  | This Manager (ms)| Improvement   |
++---------------------+-------------------+------------------+---------------+
+| Single Image        | 6012 ± 34         | 1698 ± 12        | 3.54× faster  |
++---------------------+-------------------+------------------+---------------+
+```  
+**Test Environment:**
+- GPU: NVIDIA RTX 2060 (6GB GDDR6)
+- CUDA: 12.5
+- IDE: Visual Studio 2022  
+
+
+
+
 ### Performance Tips  
 - Warm up memory pool before time-critical sections
 - Minimize small allocations (<1MB)
